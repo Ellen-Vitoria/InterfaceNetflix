@@ -1,0 +1,10 @@
+/*Por padrão, cada navegador gera um valor de padding e margin, mas esse padrão pode mudar dependendo do navegador*/
+/*Resentando Css: */
+* { /* "*": para todo o documento*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Para os elementos ter exatamante o tamanho definido, por exemplo, 
+    imaginando um conteúdo com 400px de largura, ao colocar um outro conteúdo dentro desse e que seja maior que 400px, 
+    tudo se ajustará de acordo com o limite da borda da caixa*/
+}
+
