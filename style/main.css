@@ -1,3 +1,9 @@
+/*Declarando variáveis dentro da raíz do documento*/
+:root { 
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
 /*Por padrão, cada navegador gera um valor de padding e margin, mas esse padrão pode mudar dependendo do navegador*/
 /*Resentando Css: */
 * { /* "*": para todo o documento*/
