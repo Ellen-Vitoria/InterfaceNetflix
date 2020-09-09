@@ -14,3 +14,8 @@
     tudo se ajustará de acordo com o limite da borda da caixa*/
 }
 
+body {
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif; /*Se não tiver Times New Roman, fontes da família Times e o serif poderá substituir*/
+}
+
