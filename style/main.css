@@ -19,3 +19,9 @@ body {
     font-family: 'Times New Roman', Times, serif; /*Se não tiver Times New Roman, fontes da família Times e o serif poderá substituir*/
 }
 
+header .logo {
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
