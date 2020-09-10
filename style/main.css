@@ -19,9 +19,28 @@ body {
     font-family: 'Times New Roman', Times, serif; /*Se não tiver Times New Roman, fontes da família Times e o serif poderá substituir*/
 }
 
+/*Alinhando elementos: */
+header .container {
+    display: flex; /*Por padrão, os elementos ficam em linha, seguindo a propriedade flex-direction: row;*/
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; /*Espaço entre a tag <h2> ("Netflix") e a <nav> (menu)*/
+}
+
 header .logo {
+    margin-left: 5px;
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
     font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #fff;
 }
 
