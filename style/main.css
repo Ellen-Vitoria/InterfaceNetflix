@@ -46,3 +46,67 @@ header nav a:hover {
     color: #fff;
 }
 
+/*Filme Principal*/
+.filme-principal {
+    font-size: 20px;
+    background: url('/img/abismo-magico-capa.jpg');
+    /*
+    Para deixar a imagem um pouco escura, usar a propriedade linear-gradient:
+       background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/abismo-magico-capa.jpg');
+       rgba: red, green, blue, alfa(.50 - transparência)
+    Por ser gradient, é pedido mais de uma cor, assim, foram colocados 2 rgba
+    */
+
+    height: 550px;
+    background-size: cover; /*Especificar tamanho da imagem para cobrir toda a caixa*/
+
+    display: flex;
+    flex-direction: column;
+    /*
+    Enquanto o flex-direction era row, o justify-content ajustava os elemento de forma horizontal (eixo X),
+    mas, quando o flex-direction é em column, o justify-content ajusta os elementos de forma vertical (eixo Y)
+    */
+    justify-content: center;
+    align-items: flex-start; /*Elementos começando do lado esquerdo*/
+}
+
+.filme-principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.titulo {
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px; /*Espaço interno*/
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all; /*Transição entre uma animação e outra - Duração de 3 segundos*/
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 20px;;
+}
+
+.filme-principal .container {
+    width: 60%;
+}
