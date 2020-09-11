@@ -110,3 +110,9 @@ header nav a:hover {
 .filme-principal .container {
     width: 60%;
 }
+
+.box-filme {
+    height:20rem;
+    width: 100%;
+    display: block;
+}
