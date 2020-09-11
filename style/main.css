@@ -40,6 +40,7 @@ header nav a {
     text-decoration: none;
     color: #AAA;
     margin-right: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, serif;
 }
 
 header nav a:hover {
@@ -116,11 +117,12 @@ header nav a:hover {
     flex-direction: column;
 }
 
-.continuar-titulo {
+.categoria {
     margin-top: 18px;
+    margin-bottom: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    color: #fff;
+    color: #ffffff;
 }
 
 .continuar-imagens {
@@ -132,8 +134,8 @@ header nav a:hover {
 .continuar-filme {
     height: 16rem;
     width: 13rem;
-    margin-top: 15px;
     margin-right: 15px;
+    margin-bottom: 10px;
 }
 
 .box-filme {
